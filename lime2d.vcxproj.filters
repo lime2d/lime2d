@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\demo">
-      <UniqueIdentifier>{66e02286-cf26-49a1-959d-71bdd85c520a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="glad">
       <UniqueIdentifier>{82a0e9ed-823e-4f7a-a727-a44a17671257}</UniqueIdentifier>
     </Filter>
@@ -24,6 +21,9 @@
     </Filter>
     <Filter Include="miniz">
       <UniqueIdentifier>{69e56777-1d3a-46a8-bf22-17dce706b7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\examples">
+      <UniqueIdentifier>{8978bcec-272d-4ca3-b745-9467c9f8553e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -316,11 +316,11 @@
     <None Include="src\Lime2D Reference Manual.md">
       <Filter>Source Files</Filter>
     </None>
-    <None Include="src\demo\pong.lua">
-      <Filter>Source Files\demo</Filter>
-    </None>
     <None Include="lua-5.5.0\src\Makefile">
       <Filter>lua-5.5.0</Filter>
+    </None>
+    <None Include="src\examples\pong.lua">
+      <Filter>Source Files\examples</Filter>
     </None>
   </ItemGroup>
 </Project>
