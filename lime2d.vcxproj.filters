@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\demo">
+      <UniqueIdentifier>{66e02286-cf26-49a1-959d-71bdd85c520a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glad">
+      <UniqueIdentifier>{82a0e9ed-823e-4f7a-a727-a44a17671257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua-5.5.0">
+      <UniqueIdentifier>{b38a91ff-2065-4374-a82f-a570544bd6bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="miniz">
+      <UniqueIdentifier>{69e56777-1d3a-46a8-bf22-17dce706b7fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ancillary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConsoleCapture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FusedArchive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IBM_VGA8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LuaHost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MonospaceMonochromePixelFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScreenInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScreenLua.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad\glad.c">
+      <Filter>glad</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\lapi.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\lauxlib.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\lbaselib.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\lcode.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\lcorolib.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\lctype.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\ldblib.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\ldebug.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\ldo.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\ldump.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\lfunc.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\lgc.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\linit.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\liolib.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\llex.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\lmathlib.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\lmem.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\loadlib.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\lobject.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\lopcodes.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\loslib.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\lparser.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\lstate.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\lstring.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\lstrlib.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\ltable.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\ltablib.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\ltm.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\lundump.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\lutf8lib.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\lvm.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="lua-5.5.0\src\lzio.c">
+      <Filter>lua-5.5.0</Filter>
+    </ClCompile>
+    <ClCompile Include="miniz\miniz.c">
+      <Filter>miniz</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ancillary.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\App.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConsoleCapture.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FusedArchive.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gl.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IBM_VGA8.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Image.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\keyboard.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\license.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LuaHost.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MonospaceMonochromePixelFont.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Screen.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScreenInfo.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScreenLua.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\lapi.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\lauxlib.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\lcode.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\lctype.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\ldebug.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\ldo.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\lfunc.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\lgc.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\ljumptab.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\llex.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\llimits.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\lmem.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\lobject.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\lopcodes.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\lopnames.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\lparser.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\lprefix.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\lstate.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\lstring.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\ltable.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\ltm.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\lua.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\lua.hpp">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\luaconf.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\lualib.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\lundump.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\lvm.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+    <ClInclude Include="lua-5.5.0\src\lzio.h">
+      <Filter>lua-5.5.0</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Lime2D Reference Manual.md">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="src\demo\pong.lua">
+      <Filter>Source Files\demo</Filter>
+    </None>
+    <None Include="lua-5.5.0\src\Makefile">
+      <Filter>lua-5.5.0</Filter>
+    </None>
+  </ItemGroup>
+</Project>
