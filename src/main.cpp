@@ -36,6 +36,10 @@
 *   -> System
 *     -> SubSystem
 *        > Windows (/SUBSYSTEM:WINDOWS) <- Only for Release Configuration
+* Build Events
+*   -> Post-Build Events
+*     -> Command Line
+*        > xcopy /E /I /Y /Q "$(ProjectDir)src\examples\*" "$(TargetDir)examples\"
 */
 
 #include "App.h"
