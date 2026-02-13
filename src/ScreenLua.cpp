@@ -48,6 +48,7 @@ void ScreenLua::showSystemInfoScreen()
             oss << "    ";
     }
 
+    oss << License::LUA;
     oss << License::MINIZ;
 
     info_screen.setKind(ScreenInfo::Kind::Info);
